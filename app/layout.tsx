@@ -15,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${oswald.variable} ${inter.variable}`}>
+    <html lang="en" suppressHydrationWarning className={`${oswald.variable} ${inter.variable}`}>
       <body 
         suppressHydrationWarning
         className="bg-[#0b0c0e] text-zinc-100 min-h-screen flex flex-col font-sans selection:bg-[#ccff00] selection:text-black"
